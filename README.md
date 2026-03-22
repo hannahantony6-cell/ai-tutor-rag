@@ -1,5 +1,8 @@
 RAG-Based AI Tutor Assistant
 A full-stack Intelligent Tutoring System that uses Retrieval-Augmented Generation (RAG) to generate study materials directly from your syllabus. This tool automatically creates Viva questions, Assignments, and Lab/Practical coding exercises using local LLMs.
+
+
+
 Features:
     Syllabus Parsing: Automatically splits and indexes PDF/Text syllabus files by Unit.
     Smart Retrieval: Uses ChromaDB and Sentence Transformers to fetch only the relevant unit content for question generation.
@@ -8,6 +11,9 @@ Features:
     Assignment: In-depth, descriptive theoretical questions.
     Lab/Practical: Practical problem statements with complete source code answers.
     Privacy-First: Runs locally using Ollama (Llama 3.2 3B), ensuring your data never leaves your machine.
+
+
+
 Tech Stack:
     Frontend: React.js, Vite, Tailwind CSS
     Backend: FastAPI (Python)
