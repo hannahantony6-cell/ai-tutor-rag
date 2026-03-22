@@ -1,0 +1,133 @@
+Unit I – Sorting Techniques
+Sorting means arranging data in a particular order (ascending or descending).
+1. Selection Sort
+● Repeatedly finds the smallest element from the list.
+● Places it at the beginning of the array.
+● Continues until the list is sorted.
+2. Bubble Sort
+● Compares adjacent elements and swaps them if they are in the wrong order.
+● Largest element “bubbles” to the end after each pass.
+3. Merge Sort
+● Uses Divide and Conquer technique.
+● Divides the array into two halves, sorts them, then merges them.
+4. Tree Sort
+● Data is inserted into a Binary Search Tree (BST).
+● In-order traversal of the tree gives sorted order.
+5. Partition (used in Quick Sort)
+● Divides an array around a pivot element.
+● Elements smaller than pivot go left, larger go right.
+6. Exchange Sort
+● Compares two elements at different positions and exchanges them if needed.
+● Similar idea to bubble sort but compares more combinations.
+7. Radix Sort
+● Sorts numbers digit by digit starting from least significant digit.
+● Uses buckets for digits (0–9).
+8. Address Calculation Sort
+● Uses a mathematical function to calculate the correct position of an element.
+● Often used when the range of values is known.
+Unit II – Searching Techniques
+Searching means finding a specific element in a dataset.
+1. Sequential Search (Linear Search)
+● Checks elements one by one from start to end.
+● Simple but slow for large data.
+2. Binary Search
+● Works only on sorted arrays.
+● Repeatedly divides the search space into two halves.
+3. Search Trees
+● Uses tree structures (like BST) to search data efficiently.
+● Left subtree → smaller values
+Right subtree → larger values.
+4. Height Balanced Trees
+● Trees where height difference between left and right subtree ≤ 1.
+● Keeps searching efficient.
+5. Weight Balanced Trees
+● Balance is maintained based on number of nodes in subtrees.
+6. Tree Structures
+● Data organized in hierarchical form.
+● Includes:
+○ Binary Trees
+○ BST
+○ AVL Trees
+7. Hash Functions
+● Converts key values into memory addresses.
+● Used in hash tables for fast search.
+8. Collision
+● Occurs when two keys map to the same memory location.
+9. Collision Resolution Techniques
+Methods to solve collision:
+● Chaining
+● Linear probing
+● Quadratic probing
+Unit III – File Structures
+Deals with how data is stored and accessed in storage devices.
+1. External and Intermediate Storage Devices
+● Storage devices used to store data outside main memory.
+Examples
+● Hard Disk
+● SSD
+● Magnetic Tape
+2. Sequential Files
+● Records stored one after another.
+● Accessed in sequence.
+3. Sequential File Processing
+● Data is read in order from beginning to end.
+4. Sorting on Disks
+● Sorting very large data stored on disks.
+● Uses external sorting algorithms.
+5. Indexed Sequential Files
+● Combines sequential storage + index for faster search.
+6. Structure and Processing of Indexed Files
+● Data stored sequentially.
+● Index used to locate records quickly.
+7. Class Record Retrieval System
+● System used to retrieve student records efficiently.
+8. Direct Files
+● Records accessed directly using a key.
+● Uses hashing techniques.
+9. Online Banking System
+● Practical application using file structures to manage:
+○ Accounts
+○ Transactions
+○ Balance updates.
+Unit IV – External Sorting
+1. Dynamic Hashing
+● Hash table changes size dynamically when data increases.
+2. Linear Hashing
+● A dynamic hashing method.
+● Gradually expands hash table.
+3. Virtual Hashing
+● Uses virtual memory techniques for hashing.
+4. Multiple Key Access
+● Allows searching using more than one key.
+5. Database Systems
+● Organized collection of data.
+● Uses structures for efficient storage and retrieval.
+Examples
+● MySQL
+● Oracle
+● PostgreSQL
+Unit V – Algorithm Design Model
+These are strategies to design algorithms.
+1. Greedy Method
+● Chooses best option at each step.
+● Does not reconsider previous choices.
+Example
+Minimum Spanning Tree.
+2. Divide and Conquer
+● Divides problem into smaller subproblems, solves them, then combines results.
+Example
+Merge Sort.
+3. Dynamic Programming
+● Solves problems by storing results of subproblems.
+Example
+Fibonacci
+Knapsack problem.
+4. Backtracking
+● Tries all possibilities and backtracks when a solution fails.
+Example
+N-Queens problem.
+5. Branch and Bound
+● Used for optimization problems.
+● Reduces search space by eliminating impossible solutions.
+Example
+Travelling Salesman Problem.
